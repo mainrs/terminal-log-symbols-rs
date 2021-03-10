@@ -1,3 +1,7 @@
+//! The crate provides four symbols that can be used for printing process
+//! messages to the terminal: error, info, success and warning. The emojis used
+//! support fallback values for OS' that have no Emoji support.
+
 use terminal_emoji::Emoji;
 
 /// A symbol used for indicating error messages.
