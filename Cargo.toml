@@ -1,0 +1,10 @@
+[package]
+name = "terminal-log-symbols"
+description = "Provides log symbols for the terminal with fallbacks"
+license = "Apache-2.0 OR MIT"
+version = "0.1.0"
+authors = ["SirWindfield <SirWindfield@users.noreply.github.com>"]
+edition = "2018"
+
+[dependencies]
+terminal-emoji = "0.2.5"
