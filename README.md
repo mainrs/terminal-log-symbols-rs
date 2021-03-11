@@ -10,7 +10,7 @@ use terminal_log_symbols::SUCCESS_SYMBOL;
 println!("{} Finished downloading newest podcast", SUCCESS_SYMBOL);
 ```
 
-![Example](.github/thumbnail.png)
+![Example](./.github/thumbnail.png)
 
 #### License
 
