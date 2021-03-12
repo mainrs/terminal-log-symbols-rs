@@ -12,6 +12,8 @@ pub const INFO_SYMBOL: Emoji = Emoji::new("ℹ", "i");
 pub const SUCCESS_SYMBOL: Emoji = Emoji::new("✔", "√");
 /// A symbol used to indicate a recoverable error.
 pub const WARNING_SYMBOL: Emoji = Emoji::new("⚠", "‼");
+/// A symbol used to indicate a recoverable error.
+pub const UNKNOWN_SYMBOL: Emoji = Emoji::new("?", "?");
 
 #[cfg(feature = "colors")]
 pub mod colored {
@@ -28,4 +30,7 @@ pub mod colored {
     /// A symbol used to indicate a recoverable error.
     pub const WARNING_SYMBOL: Emoji =
         Emoji::new(ansi_string!("{yellow ⚠}"), ansi_string!("{yellow ‼}"));
+    /// A symbol used to indicate a recoverable error.
+    pub const UNKNOWN_SYMBOL: Emoji =
+        Emoji::new(ansi_string!("{gray ?}"), ansi_string!("{gray ?}"));
 }
